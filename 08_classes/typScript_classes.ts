@@ -120,7 +120,4 @@ class Car3 {
     console.log("Searching for an insurrance compagny... wait ");
   }
 
-  //   updateAssemblageCountries() {
-
-  //   }
 }
