@@ -40,7 +40,7 @@ class Car2 {
     console.log("I am pretty");
   }
 
-  climb = function () {
+  climb = function (): void {
     console.log("I can climb");
   };
 
@@ -119,5 +119,4 @@ class Car3 {
   static findInsuranceForJuaguar() {
     console.log("Searching for an insurrance compagny... wait ");
   }
-
 }
