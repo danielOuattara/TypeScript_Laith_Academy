@@ -6,7 +6,7 @@ height2 = "200";
 
 // let TypeScript itself inferes as much as possible
 
-let amount; // type any -- declaratiion only; not initialized yet
+let amount; // type any -- declaration only; not initialized yet
 amount = 120;
 amount = "Daniel";
 amount = true;
