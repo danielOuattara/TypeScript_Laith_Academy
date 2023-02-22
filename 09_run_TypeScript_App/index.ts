@@ -35,8 +35,8 @@ class Car3 {
     this.addRepairCenter("Toronto");
   }
 
-  static findInsuranceForJuaguar() {
-    console.log("Searching for an insurrance compagny... wait ");
+  static findInsuranceForJaguar() {
+    console.log("Searching for an insurance company... wait ");
   }
 }
 
@@ -44,7 +44,7 @@ const myJaguar = new Car3("storm", "blue", 3);
 myJaguar.addDrivers("Julie"); // Correct
 myJaguar.driversAuthorized.push("Gaïa"); // Correct but not secure !
 
-Car3.findInsuranceForJuaguar(); // Correct but not  !
+Car3.findInsuranceForJaguar(); // Correct but not  !
 console.log(Car3.assemblageCountries); // Correct
 Car3.assemblageCountries.push("Russia"); // Correct
 console.log(Car3.assemblageCountries); // Correct
