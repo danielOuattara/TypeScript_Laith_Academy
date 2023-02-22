@@ -56,8 +56,8 @@ class Car2 {
     this.addRepairCenter("Toronto");
   }
 
-  static findInsuranceForJuaguar() {
-    console.log("Searching for an insurrance compagny... wait ");
+  static findInsuranceForJaguar() {
+    console.log("Searching for an insurance company... wait ");
   }
 
   //   updateAssemblageCountries() {
@@ -76,8 +76,8 @@ myJaguar.repairCenters.push("Gaïa"); // X Incorrect: private property; only acc
 myJaguar.addRepairCenter("Chicago"); // X Incorrect: private property; only accessible within class
 
 // static method
-myJaguar.findInsuranceForJuaguar(); // X Incorrect: static method; only accessible by the class
-Car2.findInsuranceForJuaguar(); // Correct but not  !
+myJaguar.findInsuranceForJaguar(); // X Incorrect: static method; only accessible by the class
+Car2.findInsuranceForJaguar(); // Correct but not  !
 
 // static properties
 console.log(myJaguar.assemblageCountries); // X Incorrect :static property, usable in class only
@@ -116,7 +116,7 @@ class Car3 {
     this.addRepairCenter("Toronto");
   }
 
-  static findInsuranceForJuaguar() {
-    console.log("Searching for an insurrance compagny... wait ");
+  static findInsuranceForJaguar() {
+    console.log("Searching for an insurance company... wait ");
   }
 }
