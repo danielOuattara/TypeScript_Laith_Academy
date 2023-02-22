@@ -27,45 +27,47 @@ const object_2: {
 
 //  Using interface: cleaner code
 
-interface ObjectModel {
+interface PersonInterface {
   firstName: string;
   lastName: string;
   age?: number;
   genderMale: boolean;
 }
 
-const object_3: ObjectModel = {
+const object_3: PersonInterface = {
   firstName: "John",
   lastName: "Doe",
   age: 49,
   genderMale: true,
 };
 
-const object_4: ObjectModel = {
+const object_4: PersonInterface = {
   firstName: "Jade",
   lastName: "Doe",
   genderMale: false,
 };
 
+//-------------------------------
+
 // Using type :
 
-type ObjectModelType = {
+type PersonType = {
   firstName: string;
   lastName: string;
   age?: number;
   genderMale: boolean;
 };
 
-const object_5: ObjectModelType = {
+const object_5: PersonType = {
   firstName: "Mickey",
   lastName: "Mousse",
   age: 90,
   genderMale: true,
 };
 
-type PersonType = string;
+type PersonType2 = string;
 
-const person_1: PersonType = "Daniel ";
+const person_1: PersonType2 = "Daniel ";
 
 /*  When using interface ? When using Type ?
 
@@ -83,7 +85,7 @@ type ArrayModelType = {
 }[];
 
 const listOfObjects: ArrayModelType = [
-  { firstName: "daniel", lastName: "Boua", genderMale: true },
+  { firstName: "daniel", lastName: "boy", genderMale: true },
   { firstName: "john", lastName: "doe", genderMale: true },
-  { firstName: "djana", lastName: "doe", genderMale: false },
+  { firstName: "jana", lastName: "doe", genderMale: false },
 ];
