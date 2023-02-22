@@ -4,7 +4,7 @@ height = "200";
 let height2: number = 120;
 height2 = "200";
 
-// let TypeScript itself inferes as much as possible
+// let TypeScript itself infers as much as possible
 
 let amount; // type any -- declaration only; not initialized yet
 amount = 120;
