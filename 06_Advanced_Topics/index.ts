@@ -46,11 +46,11 @@ let myObject: {
 
 //------------------------------------------------------
 
-/* Litteral Type :
+/* Literal Type :
 ~~~~~~~~~~~~~~~~~ 
- How to restrict string to a certain values => union type + litteral type */
+ How to restrict string to a certain values => union type + literal type */
 
-let rainbowColor: "red" | "orange" | "green" | "yellow" | "indigo" | "violet"; // <-- union type + litteral type type declaration
+let rainbowColor: "red" | "orange" | "green" | "yellow" | "indigo" | "violet"; // <-- union type + literal type type declaration
 rainbowColor = "orange"; // Correct, as part of a list of desired string
 rainbowColor = "pink"; // X Incorrect: pink not as a rainbow color
 
@@ -58,7 +58,7 @@ rainbowColor = "pink"; // X Incorrect: pink not as a rainbow color
 
 /* Enum Type:  
 ~~~~~~~~~~~~~~ 
-cleaner than Literal type, a set of values that can be assigned to a variable */
+cleaner than Literal type: a set of values that can be assigned to a variable */
 
 enum RainbowTypes {
   RED,
@@ -76,7 +76,6 @@ let rainbowColor3: RainbowTypes; // correct
 rainbowColor3 = "orange"; // X Incorrect
 rainbowColor3 = RainbowTypes.GREEN; // correct
 
-
 /* Optional type for Objects structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 let playerObject: {
@@ -93,5 +92,5 @@ let objectOpt: {
   property_2?: string;
 } = {
   property_1: "Hello",
-  property_2: 43 // X Incorrect
-}
+  property_2: 43, // X Incorrect
+};
